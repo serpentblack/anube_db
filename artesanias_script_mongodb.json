@@ -1,0 +1,52 @@
+db.departamentos.insertMany(
+[
+  { "dept_id": "15", "dept_nombre": "BOYACÁ" },
+  { "dept_id": "25", "dept_nombre": "CUNDINAMARCA" }
+]);
+
+db.municipios.insertMany(
+[
+  { "mun_id": "15001", "mun_dept_id": "15", "mun_nombre": "TUNJA" },
+  { "mun_id": "15022", "mun_dept_id": "15", "mun_nombre": "ALMEIDA" },
+  { "mun_id": "15047", "mun_dept_id": "15", "mun_nombre": "AQUITANIA" },
+  { "mun_id": "15051", "mun_dept_id": "15", "mun_nombre": "ARCABUCO" },
+  { "mun_id": "25785", "mun_dept_id": "25", "mun_nombre": "TABIO" },
+  { "mun_id": "25793", "mun_dept_id": "25", "mun_nombre": "TAUSA" },
+  { "mun_id": "25797", "mun_dept_id": "25", "mun_nombre": "TENA" }
+]);
+
+db.artesanos.insertMany(
+[
+  {
+    "art_mun_id": "15790",
+    "art_nombres": "NUBIA",
+    "art_apellidos": "AFRICANO RODRIGUEZ",
+    "art_razon_social": "ARTESANIAS DE BOYACA",
+    "art_celular": "3152947097",
+    "art_email": "nubiaafricano@hotmail.com"
+  },
+  {
+    "art_mun_id": "25815",
+    "art_nombres": "EMEL JULIO",
+    "art_apellidos": "DIAZ DIAZ",
+    "art_razon_social": "RUANA LTDA",
+    "art_celular": "3003892886",
+    "art_email": "emeldiaz@yahoo.es"
+  },
+  {
+    "art_mun_id": "15759",
+    "art_nombres": "ATALA EDY",
+    "art_apellidos": "LAMADRID VIVIEL",
+    "art_razon_social": "EL OVEJO",
+    "art_celular": "3003638201",
+    "art_email": "atala.lamadrid@yahoo.com"
+  },
+  {
+    "art_mun_id": "15761",
+    "art_nombres": "LILIANA FABIOLA",
+    "art_apellidos": "DIAZ POVEDA",
+    "art_razon_social": "SAN JACINTO",
+    "art_celular": "3125459003",
+    "art_email": "lilidiaz513@hotmail.com"
+  }
+]);
